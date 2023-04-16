@@ -1,0 +1,27 @@
+
+int a = 13;  //For displaying segment "a"
+int b = 13;  //For displaying segment "b"
+int c = 4;  //For displaying segment "c"
+int d = 2;  //For displaying segment "d"
+int e = 2;  //For displaying segment "e"
+int f = 7;  //For displaying segment "f"
+int g = 7;  //For displaying segment "g"
+int DP = 4; //For displaying segment "DP"
+
+void setup() {
+  // This is activating a pin on the arduino
+ pinMode(4, OUTPUT);
+  pinMode(2, OUTPUT);
+  pinMode(13, OUTPUT);
+  pinMode(7, OUTPUT);
+  pinMode(DP,OUTPUT);
+}
+
+void loop() {
+  // This is telling us what to have access at all times in constant loop
+digitalWrite(2,1); // the one tells the arduino it is on
+digitalWrite(4,1);
+digitalWrite(7,1);
+digitalWrite(13,1);
+digitalWrite(DP,1);
+}
